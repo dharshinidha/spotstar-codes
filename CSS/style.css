@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color:#aed6f1; */
+    /* background-color:#252324 ; */
+    box-sizing: border-box;
+    
+}
+#full-body{
+    min-height: 100vh;
+    
+}
+.header{
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    
+}
+.logoimg{
+    margin-left: 10px;
+    height: 99px;
+    /* width: 99px; */
+    border-radius: 25%;
+    
+}
+.headercontent{
+    margin-right: 40px;
+    /* margin-top: 15px; */
+}
+.headtext{
+    margin-left: 35px;
+    color:ivory;
+}
+a{
+    color: ivory;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.loginpic{
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 450px;
+    width: 350px;
+}
+.subdiv{
+    display: inline-block;
+}
+#formdiv{
+    width: 350px;
+    margin-top: 20px;
+}
+h2{
+    font-size: 32px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: fuchsia;
+}
+
+input{
+    margin-left: 80px;
+    color: ivory;
+    outline:none;
+    border: unset;
+    margin-bottom: 20px;
+    border-bottom: 1px solid teal;
+    background-color: transparent;
+    width:max-content;
+    height:30px;
+    padding-left: 2px;
+    padding-right: 10px;
+    
+}
+.icon{
+    position: relative;
+    color:ivory;
+    font-size: x-small;
+    top: 0px;
+    right: 20px;
+}
+
+.forgot{
+    font-size:15px;
+    padding-left: 150px;
+    color:ivory;
+    margin-bottom: 20px;
+}
+a:active{
+    color: ivory;
+}
+.btn{
+    
+    margin-left: 80px;
+    margin-bottom: 20px;
+    width:180px;
+    height: 30px;
+    color: fuchsia;
+    border: 2px solid teal;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:ivory;
+    
+}
+.signuplink{
+    color: ivory;
+    padding-left: 80px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.linediv{
+    display: inline-block;
+    color: teal;
+    
+}
+hr{
+    width: 70px;
+    margin-bottom: 3px;
+}
+.facebookdiv{
+    font-weight:700;
+    display: inline-block;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.availdiv{
+    color: ivory;
+    padding-left: 80px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgdiv{
+    display: inline-block;
+    padding-left: 80px;
+}
+#img2{
+    padding-left: 10px;
+}
+.playstoreimg{
+    height: 30px;
+    width: fit-content;
+}
+.microsoftimg{
+    height: 30px;
+    width: fit-content;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left:0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   /* background-color: rgb(0,0,0); Fallback color */
+    background-color: rgba(0,0,0,0.4); /*Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    border-radius: 20px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 100px;
+    font-weight: bolder;
+    gap: 20px;
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor:pointer
+  }

@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: ivory;
+    background-color: #252324;
+    font-family: sans-serif;
+    }
+    .header1{
+        display: flex;
+        justify-content:space-between;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .logoimg{
+       height: 99px;
+       border-radius: 25%;
+       margin-right: 260px;
+    }
+    .headercontent{
+        margin-right:50px;
+        margin-top: 40px;
+    }
+    .headtext{
+        margin-left: 35px;
+        color:ivory;
+    }
+    a{
+        color: ivory;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    .container-fluid{
+        width: 1100px;
+        height: 700px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display:grid;
+        margin-left:80px;
+       grid-template-columns: auto auto;
+       gap: 10px;
+    }
+    
+    .card{
+        width:700px;
+        height: 450px;
+    }
+    .image>img{
+        height:350px;
+        width:600px;
+     }
+    .text-container{
+        margin-top:15px;
+        color: ivory;
+        width: 500px;
+        margin-left: 20px;
+    }
+    h1{
+        color: fuchsia;
+        font-size:52px;
+        font-weight:bolder;
+    }
+    
+    .cards{
+        width:300px;
+        height:250px;
+    }
+    
+    .images>img{
+        height:200px;
+        width:270px;    
+    }
+     .text-containers{
+        margin-top:15px;
+        color: ivory;
+        width: 270px;
+        margin-left: 20px;
+     }
+     .lifediv{
+        margin-top: 20px;
+        margin-left: 20px;
+     }
+     .lifediv>h4>{
+        margin-top: 20px;
+        margin-left: 20px;
+     }
+     .lifediv>a>svg{
+        margin-top: 20px;
+        margin-left: 20px;
+     }
+     button{
+        margin-left: 70px;
+        margin-top: 20px;
+        height: 30px;
+        width: 120px;
+        border-radius: 20px;
+        background-color: teal;
+        border: teal;
+        letter-spacing:2px;
+        font-size: large;
+        cursor: pointer;
+     }
+     button:hover{
+        background-color:fuchsia;
+     }
+     #footer{
+        width: 100%;
+        padding-left: 100px;
+        margin-top:50px;
+        
+        }
+        #footerinside{
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+        .insection{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .in1{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            width: 100%;
+            padding: 4px 5px 4px 5px;
+            border: 1px solid gainsboro;
+            border-radius:5px;
+            height: 30px;
+        }
+        .footer1{
+            display: flex;
+            flex-wrap: wrap;
+            width:100%;
+            margin-bottom: 40px;
+        }
+        .aboutdiv{
+            width: 100%;
+            flex-grow: 0;
+            flex-shrink: 0;
+            max-width: 18.3333%;
+            padding: 0px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        
+        h6{
+            font-weight: 500;
+            margin-bottom: 10px;
+            font-size:15px;
+        }
+
+        a{
+            text-decoration: none;
+            margin-bottom: 20px;
+            
+        }

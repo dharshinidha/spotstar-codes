@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            background-color: black;
+         }
+       .grid-container {
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            border-radius: 15px;
+            padding: 10px;
+            }
+        .grid-container>div {
+            padding: 20px 0;
+        }
+        /* .card {
+           
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 40%;
+        } */
+
+        /* .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        } */
+
+        /* .container {
+        padding: 2px 16px;
+        } */
+    </style>
+</head>
+<body>
+    <nav>
+        logo
+        SPOTSTAR MUSIC
+       </nav> 
+       <br><br><br>
+       <center>
+            <label for="">CHOOSE LANGUAGE</label>
+            <select name="CHOOSE LANGUAGE" id="">
+                <option value=""></option>
+                <option value="">Tamil</option>
+                <option value="">Malayalam</option>
+                <option value="">Hindi</option>
+                <option value="">English</option>
+                <option value="">Tamil</option>
+
+            </select>
+        </center>
+        <div class="grid-container">
+            <div class="card">
+                <img src="../IMAGES/Aamir Khan.jpg" alt="Avatar"  width="200px" height="250px">
+                <div class="container">
+                  <h4><b>Aamir Khan</b></h4> 
+                  <p>Actor & Producer</p> 
+                </div>
+              </div>
+        </div>
+</body>
+</html>

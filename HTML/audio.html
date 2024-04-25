@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Genres</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/audiovideo.css">
+    <style>
+        .sidebar {
+    position: fixed;
+    left: 0;
+    top:-10px;
+    bottom: 0;
+    width: 190px;
+    background-color: #252324;
+    /* padding: 24px; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .sidebar .logo img {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 99px;
+    width: 99px;
+    border-radius: 25%;
+    border: none;
+  }
+  
+  .sidebar .navigation ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .sidebar .navigation ul li {
+    padding: 10px 0px;
+  }
+  .sidebar .navigation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .sidebar .navigation ul li a:hover,
+  .sidebar .navigation ul li a:active,
+  .sidebar .navigation ul li a:focus {
+    color: #ffffff;
+  }
+  .sidebar .navigation ul li a:hover .fa,
+  .sidebar .navigation ul li a:active .fa,
+  .sidebar .navigation ul li a:focus .fa {
+    color: #b3b3b3;
+  }
+  .sidebar .navigation ul li .fa {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .sidebar .navigation ul li a:hover .fa:hover,
+  .sidebar .navigation ul li a:hover .fa:active,
+  .sidebar .navigation ul li a:hover .fa:focus {
+    color: #ffffff;
+  }
+  .sidebar .policies {
+    position: absolute;
+    bottom: 100px;
+  }
+  .sidebar .policies ul {
+    list-style: none;
+  }
+  .sidebar .policies ul li {
+    padding-bottom: 5px;
+  }
+  .sidebar .policies ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .sidebar .policies ul li a:hover,
+  .sidebar .policies ul li a:active,
+  .sidebar .policies ul li a:focus {
+    text-decoration: underline;
+  }
+  #headercontent{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:ivory;
+    /* margin-right: 550px; */
+}
+    </style>
+    
+    
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#">
+              <img src="../IMAGES/logo1.png" alt="Logo" />
+            </a>
+        </div>
+        <div class="navigation" style="padding: 20px;">
+          <ul>
+            
+            <li>
+              <a href="./index.html">
+                <span class="fa fa-home"></span>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="./yourlibrary.html">
+                <span class="fa fas fa-book"></span>
+                <span>Your Library</span>
+              </a>
+            </li>
+          
+            <li>
+              <a href="./create.html">
+                <span class="fa fas fa-plus-square"></span>
+                <span>Create Playlist</span>
+              </a>
+            </li>
+  
+            <li>
+              <a href="login.html">
+                <span class="fa fas fa-right-from-bracket"></span>
+                <span>Log out</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+        
+    </div>
+    <div>
+        
+        <div id="headercontent" >
+            <h2>SPOTSTAR MUSIC</h2>
+        </div>
+    </div>
+    <div id="main">
+        <div>
+            <input type="text" value="" placeholder="search songs">
+            <span><i class="fa-solid fa-magnifying-glass glassicon"></i></span>
+            <div><select name="" id=""></select></div>
+         </div>
+    </div>
+<fieldset>
+        <legend  class="sub-header">MUSIC DIRECTORS</legend>
+    <div class="grid-container" style="padding-left: 150px;">
+        <div class="card">
+            <div class="avatar">
+                <img src="../IMAGES/A.R. Rahman.jpg" alt="A.R.Rahman pic">
+            </div>
+            <div class="container">
+                <h4>A.R.Rahman</h4>
+                <p>Music composer & Singer</p>
+                <span><a href="./A.R.Rahman.html"><i class="fa-solid fa-play playicon"></i></a></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="avatar">
+                <img src="../IMAGES/Anirudh Ravichander.jpg" alt="Anirudh">
+            </div>
+            <div class="container">
+                <h4>Anirudh</h4>
+                <p>Music composer & Singer</p>
+                <span><a href="./Anirudh.html"><i class="fa-solid fa-play playicon"></i></a></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="avatar">
+                <img src="../IMAGES/G.V.Prakash.jpg" alt="G.V.Prakash">
+            </div>
+            <div class="container">
+                <h4>G.V.Prakash</h4>
+                <p>Music composer & Singer</p>
+                <span><a href="./G.V.Prakash.html"><i class="fa-solid fa-play playicon"></i></a></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="avatar">
+                <img src="../IMAGES/Harris Jayaraj.jpg" alt="harris jayaraj pic">
+            </div>
+            <div class="container">
+                <h4>Harris</h4>
+                <p>Music composer & Singer</p>
+                <span><a href="./HarrisJayaraj.html"><i class="fa-solid fa-play playicon"></i></a></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="avatar">
+                <img src="../IMAGES/Yuvan Shankar Raja.jpg" alt="yuvan pic">
+            </div>
+            <div class="container">
+                <h4>Yuvan</h4>
+                <p>Music composer & Singer</p>
+                <span><a href="./Yuvan.html"><i class="fa-solid fa-play playicon"></i></a></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="avatar">
+                <img src="../IMAGES/Vijay_antony.jpg" alt="vijay antony pic">
+            </div>
+            <div class="container">
+                <h4>Vijay Antony</h4>
+                <p>Music composer & Singer</p>
+                <span><a href="./Vijayantony.html"><i class="fa-solid fa-play playicon"></i></a></span>
+            </div>
+        </div>
+    </div>  
+</fieldset> 
+<fieldset>
+    <legend class="sub-header">LYRICIST</legend>
+<div class="grid-container" style="padding-left: 150px;">
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/na muthukumar.jpg" alt="Na.Muthukumar pic">
+        </div>
+        <div class="container">
+            <h4>Na.Muthukumar</h4>
+            <p>Lyricist</p>
+            <span><a href="./Na.Muthukumar.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Dhanush.jpg" alt="Dhanush pic">
+        </div>
+        <div class="container">
+            <h4>Dhanush</h4>
+            <p>Actor& Singer</p>
+            <span><a href="./Dhanush.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Vaali.jpg" alt="Vaali">
+        </div>
+        <div class="container">
+            <h4>Vaali</h4>
+            <p>Music composer & Lyricist</p>
+            <span><a href="./Vaali.html"><i class="fa-solid fa-play playicon"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Vairamuthu.jpeg" alt="Vairamuthu pic">
+        </div>
+        <div class="container">
+            <h4>Vairamuthu</h4>
+            <p>Lyricist</p>
+            <span><a href="./Vairamuthu.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Thamarai.jpg" alt="thamarai pic">
+        </div>
+        <div class="container">
+            <h4>Thamarai</h4>
+            <p>Lyricist</p>
+            <span><a href="./Thamarai.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    
+</div>  
+</fieldset>    
+<fieldset>
+    <legend class="sub-header">PLAYBACK SINGERS</legend>
+<div class="grid-container" style="padding-left: 150px;">
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Arjith_singh.jpg" alt="Arjith pic">
+        </div>
+        <div class="container">
+            <h4>Arjith Singh</h4>
+            <p>Singer</p>
+            <span><a href="./Arjith.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Jonita Gandhi.jpg" alt="jonita gandhi">
+        </div>
+        <div class="container">
+            <h4>Jonita</h4>
+            <p>Singer</p>
+            <span><a href="./JonitaGandhi.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Karthick.jpg" alt="Karthick">
+        </div>
+        <div class="container">
+            <h4>Karthick</h4>
+            <p>Singer</p>
+            <span><a href="./Karthick.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Saindhavi.jpg" alt="Sandhavi pic">
+        </div>
+        <div class="container">
+            <h4>Saindhavi</h4>
+            <p>Singer</p>
+            <span><a href="./Saindhavi.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Shreya Ghoshal.jpg" alt="Shreya ghosal pic">
+        </div>
+        <div class="container">
+            <h4>Shreya Ghoshal</h4>
+            <p>Singer</p>
+            <span><a href="./Shreya_Ghoshal.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/SPB.jpg" alt="vijay antony pic">
+        </div>
+        <div class="container">
+            <h4>SPB</h4>
+            <p>Music composer & Singer</p>
+            <span><a href="./SPB.html"><i class="fa-solid fa-play playicon"></i></a></span>
+        </div>
+    </div>
+</div>  
+</fieldset> 
+<fieldset>
+    <legend class="sub-header">CELEBRITES</legend>
+<div class="grid-container" style="padding-left: 150px;">
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Ashok selvan.jpg" alt="Ashok selvan pic">
+        </div>
+        <div class="container">
+            <h4>Ashok Selvan</h4>
+            <p>Actor & Singer</p>
+            <span><a href="./AshokSelvan.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Dhanush.jpg" alt="Dhanush pic">
+        </div>
+        <div class="container">
+            <h4>Dhanush</h4>
+            <p>Actor, Lyricsit & Singer</p>
+            <span><a href="./Dhanushsongs.html"><i class="fa-solid fa-play playicon"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Dulquer Salmaan.jpg" alt="Dulquer salman">
+        </div>
+        <div class="container">
+            <h4>Dulquer salman</h4>
+            <p>Actor & Singer</p>
+            <span><a href="./Dulqursongs.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Ram Charan.jpg" alt="ramcharan pic">
+        </div>
+        <div class="container">
+            <h4>Ramcharan</h4>
+            <p>Actor & Singer</p>
+            <span><a href="./Ramcharan.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/Ranbir Kapoor.jpg" alt="ranbirkappor pic">
+        </div>
+        <div class="container">
+            <h4>Ranbir kappor</h4>
+            <p>Actor & Singer</p>
+            <span><a href="./RanbirKappor.html"><i class="fa-solid fa-play playicon" style="bottom: 60px;"></i></a></span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="avatar">
+            <img src="../IMAGES/ZaynMalik.jpg" alt="zyan malik pic">
+        </div>
+        <div class="container">
+            <h4>Zyan malik</h4>
+            <p>Music composer & Singer</p>
+            <span><a href="./ZaynMalik.html"><i class="fa-solid fa-play playicon"></i></a></span>
+        </div>
+    </div>
+</div>  
+</fieldset>  
+<a href="./index.html" style="margin-left: 210px;"><button>BACK</button></a>                 
+    
+
+    
+
+</body>
+</html>
